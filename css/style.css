@@ -106,7 +106,7 @@
     
   }
   .description {
-    max-width: 80%;
+    max-width: 85%;
     word-spacing: 1px;
     line-height: 27px;
     font-size: 18px;
@@ -153,8 +153,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 75px;
-    margin-top: 10px;
+    margin-right: 80px;
+    margin-top: 15px;
   }
   @media (max-width: 991px) {
     footer{
@@ -203,5 +203,5 @@
     }
   }
   a > i {
-    font-size: 18px;
+    font-size: 19px;
   }
