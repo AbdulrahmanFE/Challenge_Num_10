@@ -46,7 +46,7 @@
     width: 100%;
   }
   .logo {
-    margin: 50px 75px 60px;
+    margin: 50px 70px 65px;
     width: 240px;
     height: 80px;
   }
@@ -56,7 +56,7 @@
     }
   }
   .logo > img {
-    width: 95%;
+    width: 90%;
     height: 90%;
   }
 /* Styling The main */
@@ -69,13 +69,8 @@
       flex-direction: column;
     }
   }
-  @media (min-width: 992px) and (max-width: 1350px) {
-    img {
-      width: 100%;
-    }
-  }
   .image {
-    margin: auto 75px;
+    margin: auto 70px;
   }
   @media (max-width: 991px) {
     .image > img {
@@ -87,7 +82,7 @@
   }
   .content {
     text-align: left;
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -96,15 +91,16 @@
   }
   .title {
     text-transform: capitalize;
-    font-size: 40px;
-    width: 490px;
+    font-size: 2.5rem;
     max-width: 90%;
-    font-weight: 600;
+    text-align: left;
+    padding-right: 200px;
+    margin-right: auto;
   }
   .description {
-    max-width: 73%;
+    max-width: 80%;
     line-height: 27px;
-    font-size: 18px;
+    font-size: 1.25rem;
   }
   @media (max-width: 991px) {
     .content {
@@ -120,16 +116,8 @@
       font-size: 1rem;
     }
   }
-  @media (min-width: 992px) and (max-width: 1350px) {
-    .title {
-      width: auto;
-    }
-    .description {
-      width: auto;
-    }
-  }
   .register {
-    width: 30%;
+    width: 33%;
     padding: 15px;
     background-color: white;
     color: var(--Violet);
@@ -154,7 +142,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 75px;
+    margin-right: 70px;
   }
   @media (max-width: 991px) {
     footer{
