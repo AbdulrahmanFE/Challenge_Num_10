@@ -15,7 +15,7 @@
     box-sizing: border-box;
   }
   body {
-    min-height: 100vh;
+    min-height: 95vh;
     width: 100%;
     background-color: var(--Violet);
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@
     width: 100%;
   }
   .logo {
-    margin: 50px 75px 55px;
+    margin: 50px 75px 60px;
     width: 240px;
     height: 80px;
   }
@@ -56,7 +56,7 @@
     }
   }
   .logo > img {
-    width: 99%;
+    width: 95%;
     height: 90%;
   }
 /* Styling The main */
@@ -76,7 +76,6 @@
   }
   .image {
     margin: auto 75px;
-    flex: 1;
   }
   @media (max-width: 991px) {
     .image > img {
@@ -88,11 +87,10 @@
   }
   .content {
     text-align: left;
-    margin-top: 75px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     color: white;
-    flex: 1;
     gap: 20px;
     max-width: 100%;
   }
@@ -101,11 +99,10 @@
     font-size: 40px;
     width: 490px;
     max-width: 90%;
-    font-weight: 400;
+    font-weight: 600;
   }
   .description {
-    width: 525px;
-    max-width: 80%;
+    max-width: 73%;
     line-height: 27px;
     font-size: 18px;
   }
