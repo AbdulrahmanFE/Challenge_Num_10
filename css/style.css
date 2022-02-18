@@ -24,12 +24,12 @@
   }
   @media (min-width: 992px) {
     body {
-      background-image: url(/images/bg-desktop.svg);
+      background-image: url(../images/bg-desktop.svg);
     }
   }
   @media (max-width: 991px) {
     body {
-      background-image: url(/images/bg-mobile.svg);
+      background-image: url(../images/bg-mobile.svg);
     }
   }
   ul {
@@ -46,7 +46,7 @@
     width: 100%;
   }
   .logo {
-    margin: 50px 75px;
+    margin: 35px 75px 55px;
     width: 240px;
     height: 80px;
   }
@@ -86,7 +86,7 @@
   }
   .content {
     text-align: left;
-    margin-top: 50px;
+    margin-top: 75px;
     display: flex;
     flex-direction: column;
     color: white;
