@@ -46,7 +46,7 @@
     width: 100%;
   }
   .logo {
-    margin: 50px 69px 65px;
+    margin: 50px 68.5px 65px;
     width: 240px;
     height: 80px;
   }
@@ -57,7 +57,7 @@
   }
   .logo > img {
     width: 90%;
-    height: 80%;
+    height: 75%;
   }
 /* Styling The main */
   .section {
@@ -69,8 +69,18 @@
       flex-direction: column;
     }
   }
+  @media (min-width: 1150px) and (max-width: 1300px) {
+    .image > img {
+      width: 600px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1149px) {
+    .image > img {
+      width: 450px;
+    }
+  }
   .image {
-    margin: auto 70px;
+    margin: auto 70px auto 50px;
   }
   @media (max-width: 991px) {
     .image > img {
@@ -95,7 +105,7 @@
     max-width: 90%;
   }
   .description {
-    max-width: 85%;
+    max-width: 90%;
     line-height: 27px;
     font-size: 18px;
   }
@@ -105,7 +115,7 @@
       text-align: center;
     }
     .title {
-      font-size: 2rem;
+      font-size: 28px;
       margin: auto;
       max-width: 90%;
     }
@@ -142,6 +152,7 @@
     justify-content: flex-end;
     align-items: center;
     margin-right: 75px;
+    margin-top: 10px;
   }
   @media (max-width: 991px) {
     footer{
@@ -151,7 +162,7 @@
   }
   .list {
     display: flex;
-    gap: 20px;
+    gap: 15px;
   } 
   .list > li > a {
     border: 1px solid white;
