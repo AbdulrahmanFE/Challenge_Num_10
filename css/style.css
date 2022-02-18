@@ -15,7 +15,7 @@
     box-sizing: border-box;
   }
   body {
-    min-height: 95vh;
+    min-height: 96vh;
     width: 100%;
     background-color: var(--Violet);
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@
   }
   .logo > img {
     width: 90%;
-    height: 85%;
+    height: 80%;
   }
 /* Styling The main */
   .section {
@@ -90,7 +90,8 @@
   }
   .title {
     text-transform: capitalize;
-    font-size: 3.5rem;
+    font-family: var(--Poppins-family);
+    font-size: 2.5rem;
     max-width: 90%;
   }
   .description {
