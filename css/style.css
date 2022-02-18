@@ -79,7 +79,7 @@
     }
   }
   .image {
-    margin: auto 70px;
+    margin: auto 60px auto 70px;
   }
   @media (max-width: 991px) {
     .image > img {
@@ -127,13 +127,16 @@
   }
   .register {
     width: 32%;
-    padding: 15px;
+    padding: 16px;
     background-color: white;
     color: var(--Violet);
     text-align: center;
     border-radius: 35px;
-    font-size: 18px;
+    font-size: 19px;
     transition: 0.3s ease;
+    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
   }
   @media (max-width: 991px) {
     .register {
@@ -201,8 +204,8 @@
     }
   }
   a > i {
-    font-size: 17px;
+    font-size: 18px;
   }
   .inst > i {
-    font-size: 19px;
+    font-size: 20px;
   }
