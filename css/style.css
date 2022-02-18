@@ -62,7 +62,7 @@
 /* Styling The main */
   .section {
     display: flex;
-    width: 100%;
+    max-width: 100%;
   }
   @media (max-width: 991px) {
     .section {
@@ -80,7 +80,7 @@
     }
   }
   .image {
-    margin: auto 70px auto;
+    margin: auto 70px;
   }
   @media (max-width: 991px) {
     .image > img {
@@ -103,9 +103,11 @@
     font-family: var(--Poppins-family);
     font-size: 2.5rem;
     max-width: 90%;
+    
   }
   .description {
-    max-width: 90%;
+    max-width: 80%;
+    word-spacing: 1px;
     line-height: 27px;
     font-size: 18px;
   }
@@ -126,7 +128,7 @@
     }
   }
   .register {
-    width: 33%;
+    width: 32%;
     padding: 15px;
     background-color: white;
     color: var(--Violet);
@@ -178,26 +180,28 @@
   .facebook:hover,
   .twitter:hover,
   .inst:hover{
-    background-color: white;
-    animation: rotateY 0.5s;
+    animation: rotateY 0.4s;
   }
   .facebook:hover {
-    color: #4267B2;
+    background-color: #4267B2;
   }
   .twitter:hover {
-    color: #1DA1F2;
+    background-color: #1DA1F2;
   }
   .inst:hover {
-    color: var(--SoftMagenta);
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
   }
   @keyframes rotateY {
     0% {
-      transform: rotateY(0);
+      transform: scale(1.05, 1.05);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
     }
     100% {
-      transform: rotateY(360deg);
+      transform: scale(1, 1);
     }
   }
   a > i {
-    font-size: 1rem;
+    font-size: 18px;
   }
