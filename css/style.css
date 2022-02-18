@@ -16,7 +16,6 @@
   }
   body {
     min-height: 94vh;
-    width: 100%;
     background-color: var(--Violet);
     background-repeat: no-repeat;
     background-size: contain;
@@ -92,7 +91,7 @@
   }
   .content {
     text-align: left;
-    margin-top: 45px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -107,9 +106,8 @@
   }
   .description {
     max-width: 85%;
-    word-spacing: 1px;
     line-height: 27px;
-    font-size: 18px;
+    font-size: 1.1rem;
   }
   @media (max-width: 991px) {
     .content {
@@ -203,5 +201,8 @@
     }
   }
   a > i {
+    font-size: 17px;
+  }
+  .inst > i {
     font-size: 19px;
   }
