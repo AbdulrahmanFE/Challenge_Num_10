@@ -45,7 +45,7 @@
     width: 100%;
   }
   .logo {
-    margin: 50px 70px 64px;
+    margin: 50px 70px 65px;
     width: 240px;
     height: 80px;
   }
@@ -79,7 +79,7 @@
     }
   }
   .image {
-    margin: auto 60px auto 70px;
+    margin: auto 55px auto 70px;
   }
   @media (max-width: 991px) {
     .image > img {
@@ -126,17 +126,17 @@
     }
   }
   .register {
-    width: 32%;
-    padding: 16px;
+    width: 32.5%;
+    padding: 15px;
     background-color: white;
     color: var(--Violet);
     text-align: center;
     border-radius: 35px;
     font-size: 19px;
-    transition: 0.3s ease;
     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
   }
   @media (max-width: 991px) {
     .register {
